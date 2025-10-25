@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quản Lý Sinh Viên</string>
+    <string name="nhap_ten">Nhập tên sinh viên</string>
+    <string name="nhap_diem">Nhập điểm đầu vào</string>
+    <string name="them_sinh_vien">Thêm sinh viên</string>
+    <string name="sap_xep_a_z">Sắp xếp A → Z</string>
+    <string name="tim_diem_cao_nhat">Tìm sinh viên điểm cao nhất</string>
+    <string name="tinh_diem_tb">Tính điểm trung bình</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nhap_ten"
+        android:autofillHints="name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtDiem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nhap_diem"
+        android:autofillHints="score"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnThem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/them_sinh_vien" />
+
+    <Button
+        android:id="@+id/btnSapXep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sap_xep_a_z" />
+
+    <Button
+        android:id="@+id/btnMax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tim_diem_cao_nhat" />
+
+    <Button
+        android:id="@+id/btnTrungBinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tinh_diem_tb" />
+
+    <ListView
+        android:id="@+id/lvSinhVien"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
